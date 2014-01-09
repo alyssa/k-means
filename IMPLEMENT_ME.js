@@ -38,7 +38,7 @@ var points = [];
 function assignCentroids() {
   for (var i = points.length - 1; i >= 0; i--) {
     var point = points[i];
-    point.setCentroid(closestCentroid(point));
+    point.centroid = closestCentroid(point);
   };
 }
 
