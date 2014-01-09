@@ -190,8 +190,8 @@ function loadRandom() {
 
 function loadSquare() {
   points = squarePoints;
-  xLabel = "xSquare";
-  yLabel = "ySquare";
+  xLabel = "percentCardPresent";
+  yLabel = "averagePaymentAmount";
   reset();
   redraw();
 }
